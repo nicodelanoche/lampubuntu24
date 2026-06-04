@@ -39,7 +39,7 @@ EOF
 # fin d installation mariadb
 
 # Installer PHP8 et ses modules nécessaires
-sudo apt install php8.3 libapache2-mod-php8.3 php8.3-mysql php8.3-common php8.3-mysql php8.3-xml php8.3-xmlrpc php8.3-curl php8.3-gd php8.3-cli php8.3-dev php8.3-imap php8.3-mbstring php8.3-opcache php8.3-soap php8.3-zip php8.3-intl -y php8.3-fpm
+sudo apt install php8.3 libapache2-mod-php8.3 php8.3-mysql php8.3-common php8.3-mysql php8.3-xml php8.3-xmlrpc php8.3-curl php8.3-gd php8.3-cli php8.3-dev php8.3-imap php8.3-mbstring php8.3-opcache php8.3-soap php8.3-zip php8.3-intl php8.3-fpm -y
 
 # onconfigure apache avec php
 sudo a2enmod proxy_fcgi setenvif
